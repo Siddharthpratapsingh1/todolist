@@ -1,0 +1,70 @@
+.container{
+    display: block;
+    justify-content: center;
+    position:relative ;
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;    
+}
+.inputs{
+  margin: auto;
+  width: 350px;
+  padding: 20px;
+}
+.inputs label{
+    font-size: 25px;
+    text-decoration:wavy;
+}
+.inputs .titles{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+    border-radius: 10%;
+}
+.inputs button{
+    position: relative;
+    right: 20px;
+    background-color: blue;
+    color: #fff;
+    width:75px;
+    height: 40px;
+    border-radius: 10%; 
+    cursor: pointer;  
+}
+.Removebtn{
+    display: flex;
+    background-color: blue;
+    color: #fff;
+    width:75px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10%; 
+    cursor: pointer;
+}
+.Editbtn{
+    position: relative;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.Lists .deletebtn{
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin: 10px;
+    background-color: blue;
+    color: #fff;
+    float: right;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+.Lists{
+    display: flex;
+    justify-content:space-between;
+    /* margin: px; */
+    text-decoration:wavy;
+    border: 1px solid green;   
+}
